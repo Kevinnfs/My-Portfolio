@@ -5,6 +5,7 @@ import App from "./App.jsx";
 import Navbar from "./components/Navbar.jsx";
 import About from "./About.jsx";
 import Sidebar from "./components/Sidebar.jsx";
+import Experience from "./Experience.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -13,6 +14,7 @@ createRoot(document.getElementById("root")).render(
       <Sidebar />
       <App />
       <About />
+      <Experience />
     </div>
   </StrictMode>
 );
