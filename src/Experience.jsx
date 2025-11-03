@@ -37,7 +37,10 @@ export default function Experience() {
   ];
 
   return (
-    <div className="max-w-4xl mx-auto mt-20 px-6 text-white">
+    <section
+      id="experience"
+      className="max-w-4xl mx-auto mt-20 px-6 text-white"
+    >
       {/* Header */}
       <div className="text-center mb-16">
         <h1 className="text-4xl md:text-5xl font-bold tracking-widest mb-4">
@@ -63,6 +66,6 @@ export default function Experience() {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }

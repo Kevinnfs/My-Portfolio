@@ -1,6 +1,11 @@
 @import "tailwindcss";
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px; /* sesuaikan dengan tinggi Navbar */
+  }
+
   body {
     font-family: "Jost", sans-serif;
   }

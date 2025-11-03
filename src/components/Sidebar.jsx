@@ -23,7 +23,7 @@ export default function Sidebar() {
         <FaUser size={24} />
       </a>
       <a
-        href="#project"
+        href="#projects"
         className="text-white hover:text-blue-400 transition-colors"
       >
         <FaProjectDiagram size={24} />
@@ -35,7 +35,7 @@ export default function Sidebar() {
         <FaBriefcase size={24} />
       </a>
       <a
-        href="#skill"
+        href="#skills"
         className="text-white hover:text-blue-400 transition-colors"
       >
         <FaTools size={24} />

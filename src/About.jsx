@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="max-w-6xl mx-auto mt-20  text-white">
+    <section id="about" className="max-w-6xl mx-auto mt-20  text-white">
       <div className="text-center mb-16">
         <h1 className="text-4xl md:text-5xl font-bold tracking-widest mb-4">
           About Me
@@ -78,6 +78,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
