@@ -25,6 +25,13 @@ export default function Projects() {
       description:
         "Designed the wireframe for SIMHAKI (Intellectual Property Management System) at Universitas Negeri Medan, creating detailed layouts and research documentation.",
     },
+    {
+      name: "Personal Portfolio",
+      image: "/assets/tools/image.png",
+      tools: ["React Js", "Vite", "Tailwind CSS"],
+      description:
+        "Designed the wireframe A personal portfolio website built to showcase my projects, skills, and experience as a Front-End Developer. Designed with a clean and responsive layout using React and Tailwind CSS.",
+    },
   ];
 
   return (
